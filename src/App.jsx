@@ -6,7 +6,6 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import WhyVibe4U from './components/WhyVibe4U';
 import Process from './components/Process';
-import Founders from './components/Founders';
 
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -22,7 +21,6 @@ function App() {
         <Portfolio />
         <WhyVibe4U />
         <Process />
-        <Founders />
 
         <Contact />
       </main>

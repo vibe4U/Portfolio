@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-luxury-white pt-20 pb-10 border-t border-luxury-beige">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -42,6 +42,20 @@ const Footer = () => {
                 <li key={service}>
                   <span className="text-luxury-charcoal/60 text-sm font-light uppercase tracking-wider">
                     {service}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Founders */}
+          <div>
+            <h4 className="font-serif tracking-widest uppercase text-luxury-charcoal mb-6">Founders</h4>
+            <ul className="space-y-4">
+              {['Navadeep', 'Manideep', 'Nikhila', 'Sanjana'].map((founder) => (
+                <li key={founder}>
+                  <span className="text-luxury-charcoal/60 text-sm font-light uppercase tracking-wider">
+                    {founder}
                   </span>
                 </li>
               ))}
